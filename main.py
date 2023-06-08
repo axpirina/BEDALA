@@ -22,10 +22,10 @@ password = "iompi"
 client.username_pw_set(username, password)
 
 # # connect to the MQTT broker
-client.connect("130.130.130.234", 1883)
+client.connect("192.168.180.130", 1883)
 
  # publish a message to a topic
-topic = "opencv/betaurrekoak"
+topic = "opencv/knife"
 
 
 while True:
